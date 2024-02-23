@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(117, 48, 95);
+    /* width: 250px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* transform: translate(-443px, 0px); */
+    /* position: absolute; */
+    
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 10px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(208, 9, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2.2em;
+    margin: 23px;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 5px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 12px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    height: 75vh;
+}
+
+.contectform {
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    margin: 88px;
+}
+
+.contectform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contectform form div input {
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contectform form{
+    margin: 0 40px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blogcontainer{
+    margin: 10 88px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+.intro{
+    margin: 10 88px;
+}
+
+.intro h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.skill {
+    width: 365px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.ts {
+    width: 75px;
+    background-color: blue;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hambar {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 5px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1255px) {
+    .buttons{
+        font-size: 5px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devpic{
+        display: none;
+    }
+    .intro .blogcontainer .contectform{
+        margin: 8px;
+    }
+}
